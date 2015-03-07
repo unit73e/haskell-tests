@@ -51,13 +51,11 @@ To load a new module run the `:module +` command:
     Prelude> :module +Data.Ratio
     Prelude Data.Ratio> 
 
-As you can see both `Predule` and `Data.Ratio` are now in scope. The default
-prompt may get big enough to fill a whole line, becoming quite cumbersome. To
-change the prompt to something else run the `:set prompt` command:
+As you can see both `Predule` and `Data.Ratio` are now in scope. If many modules
+are in scope, the default prompt can become quite large and cumbersome. To change
+the prompt to something else run the `:set prompt` command:
 
-    Prelude Data.Ratio> :set prompt "ghci> "
-    ghci> 
+    Prelude Data.Ratio> :set prompt "λ> "
+    λ> 
 
-This is the prompt we will be using from here on for simplicity and
-consistency.
 
