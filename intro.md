@@ -5,7 +5,7 @@ language, with non strict evaluation and strong static typing.
 
 Haskell is standardized because a specification exists which defines how the
 language and libraries should be implemented. The current standard is the
-Haskell 2010 standard. There are many implementations of Haskell, however
+Haskell 2010 standard. There are many Haskell implementations, however
 Glaskow Haskell Compiler (GHC) currently represents *de facto* standard
 implementation.
 
@@ -41,10 +41,10 @@ Running `ghci` opens the interpreter:
     Prelude> 
 
 By default the prompt is defined as `%s >` where `%s` is replaced by the names
-of the modules currently in scope. The `Prelude` a module that implements a set
-of useful libraries and the first module to be loaded in every Haskell program.
-The `Prelude` is always implicitly available, meaning the types, values and
-functions it defines can be used without any additional steps.
+of the modules currently in scope. The `Prelude` is a module that implements a
+set of useful libraries. The `Prelude` is always implicitly available, meaning
+the types, values and functions it defines can be used without any additional
+steps.
 
 To load a new module run the `:module +` command:
 
